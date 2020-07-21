@@ -1,4 +1,4 @@
-#include<iostream>
+#include <iostream>
 using namespace std;
 
 int main(int argc, char const *argv[])
@@ -20,7 +20,7 @@ int main(int argc, char const *argv[])
     cout <<"¿Su Factura esta Exenta S (SI) / N (NO)?";
     cin  >> FacturaExen;
     
-    if (FacturaExen = S || FacturaExen = s )
+    if (FacturaExen = S || FacturaExen = s)
     {
     
     CalDescuento = (Subtotal*Descuento) / 100;
@@ -33,7 +33,7 @@ int main(int argc, char const *argv[])
 
     } else //Alternativa
     
-    if(FacturaExen = N || FacturaExen = n )
+    if(FacturaExen = N || FacturaExen = n)
     {
     
     CalDescuento = (Subtotal*Descuento) / 100;
