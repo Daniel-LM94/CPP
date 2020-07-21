@@ -4,7 +4,7 @@ using namespace std;
 int main(int argc, char const *argv[])
 {
   //Entrada
-    double Subtotal = 0; 
+    double Subtotal = 0;   
     double Total = 0;
     double Impuesto = 0.5;
     int Descuento = 0;
@@ -17,12 +17,12 @@ int main(int argc, char const *argv[])
     cin  >> Subtotal;
     cout << "\n Ingrese el Descuento (0, 10, 15, 20)" << endl; 
     cin  >> Descuento;
-    cout <<"¿Su Factura esta Exenta S (SI) / N (NO)?";
+    cout <<"Su Factura esta Exenta S (SI) / N (NO)? \n";
     cin  >> FacturaExen;
     
-    if (FacturaExen = S || FacturaExen = s)
+    if (FacturaExen == 'S' || FacturaExen == 's')
     {
-    
+  
     CalDescuento = (Subtotal*Descuento) / 100;
     CalImpuesto  = 0;     
     Total        =  Subtotal-CalDescuento+CalImpuesto;    
@@ -33,7 +33,7 @@ int main(int argc, char const *argv[])
 
     } else //Alternativa
     
-    if(FacturaExen = N || FacturaExen = n)
+    if(FacturaExen == 'N' || FacturaExen == 'n')
     {
     
     CalDescuento = (Subtotal*Descuento) / 100;
