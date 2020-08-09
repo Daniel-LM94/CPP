@@ -38,4 +38,4 @@ void ImprimirFactura ()
     cout << endl;
     cout << endl;
     system ("Pause");
-}  
+}
