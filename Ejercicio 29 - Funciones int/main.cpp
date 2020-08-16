@@ -3,9 +3,9 @@ using namespace std;
 
 int SUMAR (int a, int b) 
 { 
-    return a + b;
+    return a + b; 
 }
-
+  
 int main(int argc, char const *argv[])
 {
     system ("cls");
