@@ -28,8 +28,7 @@ int main(int argc, char const *argv[])
     cout << "Ingrese el valor de b" << endl;
     cin >> n2;
     cout << "Ingrese el Operador (+, -, *, /)" << endl;
-    cin >> operador;
-    
+    cin >> operador;    
     cout << endl;
 
     try
