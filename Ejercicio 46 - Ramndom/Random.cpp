@@ -17,7 +17,6 @@ int main (int argc, char const * argv[])
         cout << "Numero al Azar : " << numero << endl;
     }
 
-    return 0;
-    
+    return 0;    
 }
 
