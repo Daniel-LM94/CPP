@@ -13,6 +13,5 @@ int main(int argc, char const *argv[])
     cout << ObtenerNombreCompleto () << endl;
     cout << ObtenerEdad () << endl;
 
-
     return 0;
 }
